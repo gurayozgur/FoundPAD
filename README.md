@@ -27,7 +27,7 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 
 ## Citation
 
-@inproceedings{foundpad2025,
+>@inproceedings{foundpad2025,
   title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
   author={
     Guray Ozgur, Eduarda Caldeira, Tahar Chettaoui, Fadi Boutros, Raghavendra Ramachandra, Naser Damer
@@ -41,6 +41,6 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 
 ## License
 
-This project is licensed under the terms of the **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
+>This project is licensed under the terms of the **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
 Copyright (c) 2021 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt  
 For more details, please take a look at the [LICENSE](./LICENSE) file.
