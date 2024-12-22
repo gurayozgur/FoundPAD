@@ -9,10 +9,10 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 - Generalization benchmarks on diverse datasets.
 - Training pipelines for limited and synthetic data scenarios.
   
-![Complete pipeline of FoundPAD](img/pipeline.pdf)  
+![Complete pipeline of FoundPAD](/img/pipeline.pdf)  
 *Complete pipeline of FoundPAD. The proposed PAD model consists of an FM followed by a binary fully-connected classification layer. During training, the FM's feature space is adapted due to the training of the LoRA weights, while the classification layer is simultaneously trained to predict the PAD labels. It is better visualized in colour.*
 
-![Integration of LoRA trainable weights](img/mha_lora.pdf)  
+![Integration of LoRA trainable weights](/img/mha_lora.pdf)  
 *Integration of LoRA trainable weights (orange boxes) in a standard multi-head self-attention block, whose weights are kept frozen (blue boxes). In the proposed framework, FoundPAD, the LoRA adaptation is limited to the $q$ and $v$ matrices, leaving $k$ and $o$ unaltered. Better visualized in colour.*
 
 
