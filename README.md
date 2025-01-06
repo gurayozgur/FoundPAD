@@ -186,7 +186,6 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 |          | Total Average |         |      |   80,84%   | 25,81% |                |
 
 ## Citation
-
 ```
 @inproceedings{foundpad2025,
   title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
@@ -198,7 +197,6 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 ```
 
 ## License
-
 >This project is licensed under the terms of the **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
 Copyright (c) 2025 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt  
 For more details, please take a look at the [LICENSE](./LICENSE) file.
