@@ -5,7 +5,7 @@ export TORCH_HOME="./cache/"
 
 declare -a dataset_names=("idiap" "casia" "msu" "oulu" "mi" "ocm" "oci" "omi" "icm" "synthaspoof")
 declare -a backbone_sizes=("ViT-B/16" "ViT-L/14")
-declare -a training_types=("PAD_training" PAD_training_only_header "PAD_training_scratch")
+declare -a training_types=("PAD_training" "PAD_training_only_header" "PAD_training_scratch")
 
 # Define batch sizes
 default_batch_size=64
