@@ -17,11 +17,11 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 
 ## How to replicate
 
+- Create a virtual environment by using **requirements.txt**
 ```
 conda create -n env_name python=3.9
 pip install -r requirements.txt
 ```
-
 - Adjust config file in  **/src/config.py**
 - Start training with  **./train.sh**
 
