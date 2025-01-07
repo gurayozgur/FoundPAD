@@ -1,5 +1,5 @@
 # FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection
-This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](link-to-paper),"** accepted at **WACV2025 AI4MFDD** (*2nd Workshop on Artificial Intelligence for Multimedia Forensics and Disinformation Detection*).
+This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](https://arxiv.org/abs/2501.02892),"** accepted at **WACV2025 AI4MFDD** (*2nd Workshop on Artificial Intelligence for Multimedia Forensics and Disinformation Detection*).
 
 ## Overview
 FoundPAD leverages foundation models with LoRA adaptation to tackle the challenges of face presentation attack detection (PAD). It achieves state-of-the-art generalization across unseen domains and performs well under various data availability scenarios, including synthetic data.
@@ -14,6 +14,10 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 
 ![Integration of LoRA trainable weights](/img/mha_lora.jpg)  
 *Integration of LoRA trainable weights (orange boxes) in a standard multi-head self-attention block, whose weights are kept frozen (blue boxes). In the proposed framework, FoundPAD, the LoRA adaptation is limited to the $q$ and $v$ matrices, leaving $k$ and $o$ unaltered. Better visualized in colour.*
+
+## Pre-trained Models and Training Logs
+
+All pre-trained models and their respective training logs can be downloaded from []().
 
 ## Key Results - ViT-B/16
 |          |               |         |      | epoch = 40 |        |                |
@@ -187,12 +191,14 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 
 ## Citation
 ```
-@inproceedings{foundpad2025,
-  title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
-  author={Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
-  booktitle={WACV AI4MFDD Workshop},
-  year={2025},
-  institution={Fraunhofer IGD, TU Darmstadt, Norwegian University of Science and Technology}
+@misc{ozgur2025foundpadfoundationmodelsreloaded,
+      title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection}, 
+      author={Guray Ozgur and Eduarda Caldeira and Tahar Chettaoui and Fadi Boutros and Raghavendra Ramachandra and Naser Damer},
+      year={2025},
+      eprint={2501.02892},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.02892}, 
 }
 ```
 
