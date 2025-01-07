@@ -15,6 +15,16 @@ FoundPAD leverages foundation models with LoRA adaptation to tackle the challeng
 ![Integration of LoRA trainable weights](/img/mha_lora.jpg)  
 *Integration of LoRA trainable weights (orange boxes) in a standard multi-head self-attention block, whose weights are kept frozen (blue boxes). In the proposed framework, FoundPAD, the LoRA adaptation is limited to the $q$ and $v$ matrices, leaving $k$ and $o$ unaltered. Better visualized in colour.*
 
+## How to replicate
+
+```
+conda create -n env_name python=3.9
+pip install -r requirements.txt
+```
+
+- Adjust config file in  **/src/config.py**
+- Start training with  **./train.sh**
+
 ## Pre-trained Models and Training Logs
 
 All pre-trained models and their respective training logs can be downloaded from []().
