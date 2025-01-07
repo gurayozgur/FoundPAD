@@ -201,14 +201,13 @@ All pre-trained models and their respective training logs will be available soon
 
 ## Citation
 ```
-@misc{ozgur2025foundpadfoundationmodelsreloaded,
-      title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection}, 
-      author={Guray Ozgur and Eduarda Caldeira and Tahar Chettaoui and Fadi Boutros and Raghavendra Ramachandra and Naser Damer},
-      year={2025},
-      eprint={2501.02892},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.02892}, 
+@inproceedings{ozgur2025foundpad,
+  title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
+  author={Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
+  booktitle={WACV AI4MFDD Workshop},
+  year={2025},
+  institution={Fraunhofer IGD, TU Darmstadt, Norwegian University of Science and Technology},
+  url={https://arxiv.org/abs/2501.02892}
 }
 ```
 
