@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Pre-trained Models and Training Logs
 
-All pre-trained models and their respective training logs will be available soon.
+All pre-trained models and their respective training logs are available **[here](https://drive.google.com/drive/folders/1lkPYCvKWOu3XtCaWz3Ucx-UO_o2HfnQm?usp=drive_link)**.
 
 ## Key Results - ViT-B/16
 |          |               |         |      | epoch = 40 |        |                |
