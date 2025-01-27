@@ -1,5 +1,5 @@
 # FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection
-This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](https://arxiv.org/abs/2501.02892)"**, accepted at **WACV2025 AI4MFDD** (*2nd Workshop on Artificial Intelligence for Multimedia Forensics and Disinformation Detection*).
+This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](https://arxiv.org/abs/2501.02892)"**, accepted at WACV2025 Workshops.
 
 ## Overview
 FoundPAD leverages foundation models with LoRA adaptation to tackle the challenges of face presentation attack detection (PAD). It achieves state-of-the-art generalization across unseen domains and performs well under various data availability scenarios, including synthetic data.
@@ -198,6 +198,8 @@ All pre-trained models and their respective training logs are available **[here]
 |          |               |         |   I  |   73,20%   | 33,60% |                |
 |          |               |         |   O  |   50,63%   | 50,04% |                |
 |          | Total Average |         |      |   80,84%   | 25,81% |                |
+
+Please see the data preparation, and the evaluation protocol in **[CF-MAD](https://github.com/meilfang/CF-PAD)**. 
 
 ## Citation
 ```
