@@ -203,12 +203,11 @@ Please see the data preparation, and the evaluation protocol in **[CF-MAD](https
 
 ## Citation
 ```
-@inproceedings{ozgur2025foundpad,
+@inproceedings{Ozgur_2025_WACV,
   title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
   author={Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
-  booktitle={WACV AI4MFDD Workshop},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
   year={2025},
-  institution={Fraunhofer IGD, TU Darmstadt, Norwegian University of Science and Technology},
   url={https://arxiv.org/abs/2501.02892}
 }
 ```
