@@ -1,5 +1,5 @@
 # FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection
-This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](https://arxiv.org/abs/2501.02892)"**, accepted at WACV2025 Workshops.
+This repository contains the official implementation of the paper **"[FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection](https://openaccess.thecvf.com/content/WACV2025W/AI4MFDD/papers/Ozgur_FoundPAD_Foundation_Models_Reloaded_for_Face_Presentation_Attack_Detection_WACVW_2025_paper.pdf)"**, accepted at WACV2025 Workshops.
 
 ## Overview
 FoundPAD leverages foundation models with LoRA adaptation to tackle the challenges of face presentation attack detection (PAD). It achieves state-of-the-art generalization across unseen domains and performs well under various data availability scenarios, including synthetic data.
@@ -203,12 +203,13 @@ Please see the data preparation, and the evaluation protocol in **[CF-MAD](https
 
 ## Citation
 ```
-@inproceedings{Ozgur_2025_WACV,
-  title={FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
-  author={Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
-  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
-  year={2025},
-  url={https://arxiv.org/abs/2501.02892}
+@InProceedings{Ozgur_2025_WACV,
+    author    = {Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
+    title     = {FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {February},
+    year      = {2025},
+    pages     = {745-755}
 }
 ```
 
