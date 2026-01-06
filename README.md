@@ -203,13 +203,25 @@ Please see the data preparation, and the evaluation protocol in **[CF-MAD](https
 
 ## Citation
 ```
-@InProceedings{Ozgur_2025_WACV,
-    author    = {Ozgur, Guray and Caldeira, Eduarda and Chettaoui, Tahar and Boutros, Fadi and Ramachandra, Raghavendra and Damer, Naser},
-    title     = {FoundPAD: Foundation Models Reloaded for Face Presentation Attack Detection},
-    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV) Workshops},
-    month     = {February},
-    year      = {2025},
-    pages     = {745-755}
+@inproceedings{DBLP:conf/wacv/OzgurCCBRD25,
+  author       = {Guray Ozgur and
+                  Eduarda Caldeira and
+                  Tahar Chettaoui and
+                  Fadi Boutros and
+                  Raghavendra Ramachandra and
+                  Naser Damer},
+  title        = {FoundPAD: Foundation Models Reloaded for Face Presentation Attack
+                  Detection},
+  booktitle    = {{IEEE/CVF} Winter Conference on Applications of Computer Vision, {WACV}
+                  2025 - Workshops, Tucson, AZ, USA, February 28 - March 4, 2025},
+  pages        = {697--707},
+  publisher    = {{IEEE}},
+  year         = {2025},
+  url          = {https://doi.org/10.1109/WACVW65960.2025.00084},
+  doi          = {10.1109/WACVW65960.2025.00084},
+  timestamp    = {Wed, 28 May 2025 09:03:47 +0200},
+  biburl       = {https://dblp.org/rec/conf/wacv/OzgurCCBRD25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
